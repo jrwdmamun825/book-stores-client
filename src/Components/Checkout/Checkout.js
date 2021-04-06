@@ -24,7 +24,7 @@ const Checkout = () => {
 
         }
         console.log(info)
-        fetch('http://localhost:7070/orderDetails' ,{
+        fetch('https://shrouded-badlands-44210.herokuapp.com/orderDetails' ,{
             method: 'POST' ,
             headers:{
                 'Content-type': 'application/json'
