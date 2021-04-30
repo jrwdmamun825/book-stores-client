@@ -1,5 +1,4 @@
-# PROJECT NAME 
-# BOOK STORES
+ Project Name : BOOK STORES
 
 1.data load from mongodb database
 2.specific user order , details & payment info 
