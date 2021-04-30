@@ -24,12 +24,14 @@ const Header = () => {
                             <Link to="/checkout/:">CheckOut</Link>
                         </Nav.Link>
                         {loggedInUser.email ?
-                            <button className="btn btn-success">logOut</button>
+
+                            <button className="btn btn-success"> {loggedInUser.name}</button>
+
                             :
                             <Nav.Link>
                                 <Link to="/login">Login</Link>
                             </Nav.Link>
-                            
+
                         }
                     </Nav>
 
